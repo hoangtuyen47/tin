@@ -1,0 +1,22 @@
+{
+  "date": "17/11/2026",
+  "greeting": "Chào buổi sáng! Dưới đây là bản tóm tắt nhanh những diễn biến đáng chú ý trong 24 giờ qua dành cho bạn.",
+  "highlights": [
+    {
+      "category": "Thời sự Quốc tế",
+      "headline": "Căng thẳng địa chính trị và nỗ lực ngoại giao đa phương",
+      "content": "Các hội nghị thượng đỉnh quốc tế ghi nhận nhiều cam kết mới về hợp tác kinh tế và biến đổi khí hậu giữa các cường quốc, nhằm giảm thiểu rủi ro chuỗi cung ứng toàn cầu."
+    },
+    {
+      "category": "AI & Công nghệ",
+      "headline": "Làn sóng AI thế hệ mới tập trung vào Agent tự hành",
+      "content": "Các phòng lab lớn tiếp tục công bố các kiến trúc mô hình có khả năng suy luận đa bước (reasoning models) và tích hợp sâu vào quy trình làm việc tự động."
+    },
+    {
+      "category": "Giáo dục & Khoa học",
+      "headline": "Đổi mới phương pháp học tập kết hợp công nghệ cá nhân hoá",
+      "content": "Nhiều trường đại học hàng đầu đang thí điểm đưa các công cụ trợ lý AI vào đồng hành cùng người học, giúp giảm áp lực và nâng cao tính tương tác."
+    }
+  ],
+  "quick_takeaway": "Làn sóng ứng dụng AI đang chuyển dịch mạnh mẽ từ 'thử nghiệm tính năng' sang 'tối ưu hoá công việc thực tế' trên toàn cầu."
+}
