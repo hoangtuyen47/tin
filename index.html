@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bản Tin Cá Nhân Hoá AI | Không Quảng Cáo</title>
+  
+  <!-- Google Fonts & Tailwind CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Lora"', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Tuỳ biến thanh cuộn mượt mà */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 9999px; }
+    .dark ::-webkit-scrollbar-thumb { background: #334155; }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 min-h-screen font-sans transition-colors duration-200">
+
+  <!-- TOP BAR / HEADER -->
+  <header class="sticky top-0 z-40 backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+          <i data-lucide="newspaper" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold tracking-tight flex items-center gap-2">
+            FocusNews AI
+            <span class="text-[10px] uppercase tracking-wider font-semibold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-400 border border-emerald-300 dark:border-emerald-800">100% No Ads</span>
+          </h1>
+          <p class="text-xs text-slate-500 dark:text-slate-400">Trang tin cá nhân hoá • Đa chiều khách quan • Dẫn nguồn minh bạch</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Search bar -->
+        <div class="relative hidden sm:block">
+          <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"></i>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Tìm kiếm tin tức, từ khoá..." 
+            class="w-64 pl-9 pr-3 py-1.5 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <!-- Dark/Light toggle -->
+        <button id="themeToggle" class="p-2 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <i id="themeIcon" data-lucide="moon" class="w-4 h-4 text-slate-600 dark:text-slate-300"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-6xl mx-auto px-4 py-6 space-y-8">
+
+    <!-- DAILY BRIEFING / YESTERDAY RECAP (TRỢ LÝ TÓM TẮT HÔM QUA) -->
+    <section id="dailyRecapSection" class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-900 via-slate-900 to-slate-950 text-white p-6 md:p-8 shadow-xl border border-indigo-500/20">
+      <div class="relative z-10 space-y-4">
+        <div class="flex items-center justify-between border-b border-indigo-500/30 pb-3">
+          <div class="flex items-center gap-2">
+            <span class="p-1.5 rounded-lg bg-indigo-500/20 text-indigo-400">
+              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            </span>
+            <span class="text-xs uppercase tracking-wider font-bold text-indigo-300">Trợ Lý AI Điểm Tin 24 Giờ Qua</span>
+          </div>
+          <span id="recapDate" class="text-xs text-indigo-200 font-mono">Đang tải...</span>
+        </div>
+
+        <p id="recapGreeting" class="text-sm md:text-base text-slate-200 italic font-serif">
+          Đang chuẩn bị bản tóm tắt các sự kiện nổi bật ngày hôm qua...
+        </p>
+
+        <!-- 3 Highlights Cards -->
+        <div id="recapCards" class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+          <!-- Render dynamically -->
+        </div>
+
+        <div class="bg-indigo-950/60 rounded-xl p-3.5 border border-indigo-500/30 flex items-start gap-3 text-xs md:text-sm text-indigo-100">
+          <i data-lucide="lightbulb" class="w-5 h-5 text-amber-400 shrink-0 mt-0.5"></i>
+          <div>
+            <span class="font-bold text-amber-300">Đúc kết trong ngày: </span>
+            <span id="recapTakeaway">Đang cập nhật...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP CONTROLS & CATEGORY TABS -->
+    <section class="space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap gap-2 text-xs font-semibold" id="categoryTabs">
+          <button data-cat="all" class="cat-btn px-3.5 py-2 rounded-xl bg-blue-600 text-white shadow-sm transition">
+            Tất Cả Tin
+          </button>
+          <button data-cat="AI & Công nghệ" class="cat-btn px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 transition">
+            🤖 AI & Công Nghệ
+          </button>
+          <button data-cat="Thời sự Quốc tế" class="cat-btn px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 transition">
+            🌍 Thời Sự Quốc Tế
+          </button>
+          <button data-cat="Giáo dục & Khoa học" class="cat-btn px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 transition">
+            🎓 Giáo Dục & Khoa Học
+          </button>
+          <button data-cat="bookmarks" class="cat-btn px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 transition flex items-center gap-1.5">
+            <i data-lucide="bookmark" class="w-3.5 h-3.5 text-amber-500"></i>
+            Đã Lưu (<span id="bookmarkCount">0</span>)
+          </button>
+        </div>
+
+        <!-- Personalization Status Indicator -->
+        <div class="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>Thuật toán gợi ý cá nhân hoá: <b class="text-slate-700 dark:text-slate-200" id="preferredTopic">Đang học thói quen</b></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS FEED LIST -->
+    <section>
+      <div id="newsFeed" class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <!-- Bài báo được chèn bằng JS -->
+      </div>
+
+      <!-- Empty State -->
+      <div id="emptyState" class="hidden text-center py-16 space-y-3">
+        <i data-lucide="inbox" class="w-12 h-12 mx-auto text-slate-400"></i>
+        <h3 class="text-base font-semibold text-slate-700 dark:text-slate-300">Không có bài viết nào phù hợp</h3>
+        <p class="text-xs text-slate-500">Hãy thử đổi bộ lọc hoặc từ khoá tìm kiếm.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- QUICK READER MODAL (ĐỌC BÀI TẬP TRUNG) -->
+  <div id="readerModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 md:p-8 space-y-5 shadow-2xl border border-slate-200 dark:border-slate-800">
+      <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-3">
+        <span id="modalCategory" class="text-xs font-bold uppercase tracking-wider text-blue-600 dark:text-blue-400"></span>
+        <button id="closeModal" class="p-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="space-y-2">
+        <h2 id="modalTitle" class="text-xl md:text-2xl font-bold font-serif leading-snug"></h2>
+        <div class="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+          <span id="modalSource" class="font-semibold text-slate-700 dark:text-slate-300"></span>
+          <span>•</span>
+          <span id="modalTime"></span>
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <h4 class="text-xs uppercase tracking-wider font-bold text-slate-500 dark:text-slate-400">Tóm tắt 3 điểm mấu chốt của AI:</h4>
+        <ul id="modalPoints" class="space-y-2 text-sm text-slate-700 dark:text-slate-300 list-disc pl-5"></ul>
+      </div>
+
+      <div class="pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center justify-between">
+        <button id="modalBookmarkBtn" class="text-xs flex items-center gap-1.5 px-3 py-2 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          <i data-lucide="bookmark" class="w-4 h-4"></i>
+          <span>Lưu bài này</span>
+        </button>
+        <a id="modalSourceLink" href="#" target="_blank" rel="noopener noreferrer" class="text-xs flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium transition shadow-sm">
+          <span>Xem bài báo gốc</span>
+          <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // State quản lý
+    let allArticles = [];
+    let dailyRecap = null;
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    // Local Storage cho cá nhân hoá
+    const STORAGE_KEY_BOOKMARKS = 'focusnews_bookmarks';
+    const STORAGE_KEY_INTERESTS = 'focusnews_interests'; // Đếm click theo chuyên mục
+    const STORAGE_KEY_HIDDEN = 'focusnews_hidden_articles';
+
+    let bookmarks = JSON.parse(localStorage.getItem(STORAGE_KEY_BOOKMARKS) || '[]');
+    let interests = JSON.parse(localStorage.getItem(STORAGE_KEY_INTERESTS) || '{"AI & Công nghệ": 0, "Thời sự Quốc tế": 0, "Giáo dục & Khoa học": 0}');
+    let hiddenIds = JSON.parse(localStorage.getItem(STORAGE_KEY_HIDDEN) || '[]');
+
+    // Khởi tạo giao diện và icons
+    document.addEventListener('DOMContentLoaded', async () => {
+      initTheme();
+      await loadData();
+      setupEventListeners();
+      updatePersonalizationIndicator();
+      lucide.createIcons();
+    });
+
+    // Dark/Light Mode toggle
+    function initTheme() {
+      const isDark = localStorage.getItem('focusnews_theme') === 'dark' || 
+        (!('focusnews_theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+        document.getElementById('themeIcon').setAttribute('data-lucide', 'sun');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.getElementById('themeIcon').setAttribute('data-lucide', 'moon');
+      }
+    }
+
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('focusnews_theme', isDark ? 'dark' : 'light');
+      document.getElementById('themeIcon').setAttribute('data-lucide', isDark ? 'sun' : 'moon');
+      lucide.createIcons();
+    });
+
+    // Tải dữ liệu JSON
+    async function loadData() {
+      try {
+        const [newsRes, recapRes] = await Promise.all([
+          fetch('./data/news.json').catch(() => null),
+          fetch('./data/recap.json').catch(() => null)
+        ]);
+
+        if (newsRes && newsRes.ok) {
+          allArticles = await newsRes.json();
+        } else {
+          allArticles = getFallbackNews();
+        }
+
+        if (recapRes && recapRes.ok) {
+          dailyRecap = await recapRes.json();
+        } else {
+          dailyRecap = getFallbackRecap();
+        }
+
+        renderRecap();
+        renderFeed();
+      } catch (err) {
+        console.error("Lỗi nạp dữ liệu:", err);
+        allArticles = getFallbackNews();
+        dailyRecap = getFallbackRecap();
+        renderRecap();
+        renderFeed();
+      }
+    }
+
+    // Hiển thị phần "Trợ lý tóm tắt hôm qua"
+    function renderRecap() {
+      if (!dailyRecap) return;
+      document.getElementById('recapDate').textContent = dailyRecap.date || 'Hôm nay';
+      document.getElementById('recapGreeting').textContent = dailyRecap.greeting || '';
+      document.getElementById('recapTakeaway').textContent = dailyRecap.quick_takeaway || '';
+
+      const container = document.getElementById('recapCards');
+      container.innerHTML = (dailyRecap.highlights || []).map(item => `
+        <div class="bg-white/10 dark:bg-slate-800/60 rounded-xl p-4 border border-white/10 backdrop-blur-sm space-y-2 flex flex-col justify-between">
+          <div>
+            <span class="inline-block text-[11px] font-bold uppercase tracking-wider text-indigo-300 mb-1">
+              ${item.category}
+            </span>
+            <h4 class="text-sm font-semibold text-white leading-snug">${item.headline}</h4>
+          </div>
+          <p class="text-xs text-slate-300 mt-2 leading-relaxed">${item.content}</p>
+        </div>
+      `).join('');
+    }
+
+    // Sắp xếp bài viết theo thuật toán cá nhân hoá Local-first
+    function getPersonalizedArticles() {
+      let filtered = allArticles.filter(art => !hiddenIds.includes(art.id));
+
+      if (currentCategory === 'bookmarks') {
+        filtered = filtered.filter(art => bookmarks.includes(art.id));
+      } else if (currentCategory !== 'all') {
+        filtered = filtered.filter(art => art.category === currentCategory);
+      }
+
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        filtered = filtered.filter(art => 
+          (art.title_vi || art.title).toLowerCase().includes(q) ||
+          (art.original_summary || '').toLowerCase().includes(q) ||
+          (art.source || '').toLowerCase().includes(q)
+        );
+      }
+
+      // Re-ranking: Bài có chuyên mục bạn đọc nhiều sẽ được cộng điểm ưu tiên
+      return filtered.sort((a, b) => {
+        const interestScoreA = (interests[a.category] || 0) * 1.5 + (a.importance_score || 5);
+        const interestScoreB = (interests[b.category] || 0) * 1.5 + (b.importance_score || 5);
+        return interestScoreB - interestScoreA;
+      });
+    }
+
+    // Hiển thị Feed tin tức
+    function renderFeed() {
+      const feedContainer = document.getElementById('newsFeed');
+      const emptyState = document.getElementById('emptyState');
+      const items = getPersonalizedArticles();
+
+      document.getElementById('bookmarkCount').textContent = bookmarks.length;
+
+      if (items.length === 0) {
+        feedContainer.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+      emptyState.classList.add('hidden');
+
+      feedContainer.innerHTML = items.map(art => {
+        const isBookmarked = bookmarks.includes(art.id);
+        const points = art.summary_points || [art.original_summary || ''];
+        
+        return `
+          <article class="bg-white dark:bg-slate-900 rounded-2xl p-5 border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between space-y-4">
+            <div class="space-y-3">
+              <!-- Meta header -->
+              <div class="flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+                <span class="px-2.5 py-0.5 rounded-full font-semibold ${getCategoryBadgeColor(art.category)}">
+                  ${art.category}
+                </span>
+                <span class="font-medium">${art.source}</span>
+              </div>
+
+              <!-- Tiêu đề -->
+              <h3 onclick="openReader('${art.id}')" class="text-base font-bold font-serif leading-snug cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                ${art.title_vi || art.title}
+              </h3>
+
+              <!-- 3 Ý tóm tắt của AI -->
+              <div class="bg-slate-50 dark:bg-slate-800/50 rounded-xl p-3 border border-slate-100 dark:border-slate-800/80 space-y-1.5">
+                <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1">
+                  <i data-lucide="zap" class="w-3 h-3 text-amber-500"></i> AI Tóm Tắt Nhanh
+                </div>
+                <ul class="text-xs text-slate-600 dark:text-slate-300 space-y-1 pl-4 list-disc">
+                  ${points.slice(0, 3).map(pt => `<li>${pt}</li>`).join('')}
+                </ul>
+              </div>
+            </div>
+
+            <!-- Footer actions -->
+            <div class="flex items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-800 text-xs">
+              <button onclick="toggleBookmark('${art.id}')" class="flex items-center gap-1 text-slate-500 hover:text-amber-500 transition">
+                <i data-lucide="bookmark" class="w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-500 text-amber-500' : ''}"></i>
+                <span>${isBookmarked ? 'Đã lưu' : 'Lưu tin'}</span>
+              </button>
+
+              <div class="flex items-center gap-2">
+                <button onclick="hideArticle('${art.id}')" title="Ẩn tin này" class="p-1 text-slate-400 hover:text-rose-500 transition">
+                  <i data-lucide="eye-off" class="w-3.5 h-3.5"></i>
+                </button>
+                <a href="${art.link}" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-blue-600 dark:text-blue-400 font-semibold hover:underline">
+                  <span>Nguồn gốc</span>
+                  <i data-lucide="external-link" class="w-3 h-3"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      lucide.createIcons();
+    }
+
+    function getCategoryBadgeColor(cat) {
+      switch(cat) {
+        case 'AI & Công nghệ':
+          return 'bg-purple-100 dark:bg-purple-950/70 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-800';
+        case 'Thời sự Quốc tế':
+          return 'bg-blue-100 dark:bg-blue-950/70 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800';
+        case 'Giáo dục & Khoa học':
+          return 'bg-emerald-100 dark:bg-emerald-950/70 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800';
+        default:
+          return 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';
+      }
+    }
+
+    // Modal đọc chi tiết
+    function openReader(id) {
+      const art = allArticles.find(a => a.id === id);
+      if (!art) return;
+
+      // Ghi nhận hành vi đọc để cá nhân hoá (tăng trọng số chuyên mục)
+      interests[art.category] = (interests[art.category] || 0) + 1;
+      localStorage.setItem(STORAGE_KEY_INTERESTS, JSON.stringify(interests));
+      updatePersonalizationIndicator();
+
+      document.getElementById('modalCategory').textContent = art.category;
+      document.getElementById('modalTitle').textContent = art.title_vi || art.title;
+      document.getElementById('modalSource').textContent = art.source;
+      document.getElementById('modalTime').textContent = new Date(art.published_at || Date.now()).toLocaleDateString('vi-VN');
+      
+      const points = art.summary_points || [art.original_summary || ''];
+      document.getElementById('modalPoints').innerHTML = points.map(p => `<li>${p}</li>`).join('');
+
+      const sourceLink = document.getElementById('modalSourceLink');
+      sourceLink.href = art.link;
+
+      const bmBtn = document.getElementById('modalBookmarkBtn');
+      bmBtn.onclick = () => {
+        toggleBookmark(art.id);
+        bmBtn.querySelector('span').textContent = bookmarks.includes(art.id) ? 'Bỏ lưu' : 'Lưu bài này';
+      };
+
+      document.getElementById('readerModal').classList.remove('hidden');
+    }
+
+    document.getElementById('closeModal').addEventListener('click', () => {
+      document.getElementById('readerModal').classList.add('hidden');
+    });
+
+    // Bookmark Toggle
+    function toggleBookmark(id) {
+      if (bookmarks.includes(id)) {
+        bookmarks = bookmarks.filter(b => b !== id);
+      } else {
+        bookmarks.push(id);
+      }
+      localStorage.setItem(STORAGE_KEY_BOOKMARKS, JSON.stringify(bookmarks));
+      renderFeed();
+    }
+
+    // Ẩn tin
+    function hideArticle(id) {
+      hiddenIds.push(id);
+      localStorage.setItem(STORAGE_KEY_HIDDEN, JSON.stringify(hiddenIds));
+      renderFeed();
+    }
+
+    // Cập nhật nhãn cá nhân hoá
+    function updatePersonalizationIndicator() {
+      let topCategory = 'Đang học thói quen';
+      let maxScore = 0;
+      for (const [cat, count] of Object.entries(interests)) {
+        if (count > maxScore) {
+          maxScore = count;
+          topCategory = cat;
+        }
+      }
+      document.getElementById('preferredTopic').textContent = topCategory;
+    }
+
+    // Filter Buttons & Search
+    function setupEventListeners() {
+      const tabs = document.querySelectorAll('.cat-btn');
+      tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabs.forEach(b => {
+            b.className = 'cat-btn px-3.5 py-2 rounded-xl bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 hover:border-blue-500 transition flex items-center gap-1.5';
+          });
+          btn.className = 'cat-btn px-3.5 py-2 rounded-xl bg-blue-600 text-white shadow-sm transition flex items-center gap-1.5';
+          currentCategory = btn.getAttribute('data-cat');
+          renderFeed();
+        });
+      });
+
+      const searchInput = document.getElementById('searchInput');
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value;
+        renderFeed();
+      });
+    }
+
+    // Fallback data khi chưa chạy script python hoặc offline
+    function getFallbackNews() {
+      return [
+        {
+          id: "demo_1",
+          category: "AI & Công nghệ",
+          source: "TechCrunch AI",
+          title: "Next-gen AI agents achieve breakthrough in autonomous reasoning",
+          title_vi: "Đột phá mới: Các AI Agent tự hành đạt khả năng suy luận logic vượt bậc",
+          link: "https://techcrunch.com",
+          published_at: new Date().toISOString(),
+          importance_score: 9,
+          summary_points: [
+            "Các viện nghiên cứu hàng đầu vừa thử nghiệm thành công mô hình Agent có khả năng tự sửa lỗi mã nguồn theo chuỗi mắt xích.",
+            "Khác với chatbot thông thường, thế hệ Agent mới có thể làm việc liên tục nhiều giờ mà không bị sai lệch mục tiêu ban đầu.",
+            "Dự kiến sẽ được tích hợp vào các nền tảng lập trình và phân tích dữ liệu lớn trong quý tới."
+          ]
+        },
+        {
+          id: "demo_2",
+          category: "Thời sự Quốc tế",
+          source: "BBC World News",
+          title: "Global summit agrees on unprecedented digital education pact",
+          title_vi: "Hội nghị thượng đỉnh toàn cầu thông qua hiệp ước chuyển đổi số giáo dục",
+          link: "https://www.bbc.com/news/world",
+          published_at: new Date().toISOString(),
+          importance_score: 8,
+          summary_points: [
+            "Hơn 40 quốc gia đã cùng ký kết văn kiện cam kết phổ cập tài nguyên học tập số hoá cho học sinh vùng sâu vùng xa.",
+            "Tập trung đầu tư cơ sở hạ tầng mạng cáp quang và trao tặng thiết bị thông minh cho hơn 10 triệu trẻ em.",
+            "Dự án được sự tài trợ của các quỹ giáo dục phi chính phủ cùng các tập đoàn công nghệ lớn."
+          ]
+        },
+        {
+          id: "demo_3",
+          category: "Giáo dục & Khoa học",
+          source: "ScienceDaily",
+          title: "Adaptive learning algorithms show 40% improvement in student retention",
+          title_vi: "Nghiên cứu mới: Thuật toán học tập thích ứng giúp tăng 40% khả năng ghi nhớ của học sinh",
+          link: "https://www.sciencedaily.com",
+          published_at: new Date().toISOString(),
+          importance_score: 7,
+          summary_points: [
+            "Nghiên cứu kéo dài 2 năm trên 5000 sinh viên cho thấy việc cá nhân hoá bài tập theo tốc độ hiểu bài mang lại hiệu quả vượt trội.",
+            "Hệ thống tự động phát hiện lỗ hổng kiến thức và gợi ý bài giảng ôn tập đúng thời điểm vàng.",
+            "Mô hình đang được mở rộng thử nghiệm tại các trường THPT chuyên trên thế giới."
+          ]
+        }
+      ];
+    }
+
+    function getFallbackRecap() {
+      return {
+        date: "Hôm nay",
+        greeting: "Chào mừng bạn! Dưới đây là 3 phút tóm tắt tất cả những diễn biến đáng chú ý nhất trong 24 giờ qua.",
+        highlights: [
+            {
+              category: "Thời sự Quốc tế",
+              headline: "Hội nghị số hoá giáo dục đạt thỏa thuận lịch sử",
+              content: "Các đại diện quốc tế cam kết quỹ hỗ trợ 5 tỷ USD nhằm phổ cập thiết bị và AI gia sư cho trẻ em trên toàn cầu."
+            },
+            {
+              category: "AI & Công nghệ",
+              headline: "Cuộc đua mô hình suy luận đa tác vụ (Autonomous Agents)",
+              content: "Xu hướng AI năm nay chuyển dịch trọng tâm từ tạo văn bản đơn thuần sang xây dựng các trợ lý giải quyết trọn vẹn tác vụ thực tế."
+            },
+            {
+              category: "Giáo dục & Khoa học",
+              headline: "Bước tiến của phương pháp học tập tương tác chủ động",
+              content: "Công nghệ cá nhân hoá lộ trình học chứng minh giúp giảm một nửa thời gian học lại bài cho học sinh."
+            }
+        ],
+        quick_takeaway: "Công nghệ đang được đẩy mạnh ứng dụng vào đời sống thực tế với trọng tâm là giáo dục và năng suất cá nhân."
+      };
+    }
+  </script>
+</body>
+</html>
