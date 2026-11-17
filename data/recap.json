@@ -1,6 +1,6 @@
 {
   "date": "17/11/2026",
-  "greeting": "Chào buổi sáng! Dưới đây là bản tóm tắt nhanh những diễn biến đáng chú ý trong 24 giờ qua dành cho bạn.",
+  "greeting": "Chào mừng bạn! Dưới đây là bức tranh toàn cảnh các sự kiện đáng lưu ý nhất trong 24 giờ qua.",
   "highlights": [
     {
       "category": "Thời sự Quốc tế",
@@ -10,13 +10,18 @@
     {
       "category": "AI & Công nghệ",
       "headline": "Làn sóng AI thế hệ mới tập trung vào Agent tự hành",
-      "content": "Các phòng lab lớn tiếp tục công bố các kiến trúc mô hình có khả năng suy luận đa bước (reasoning models) và tích hợp sâu vào quy trình làm việc tự động."
+      "content": "Các phòng lab lớn tiếp tục công bố các kiến trúc mô hình có khả năng suy luận logic đa bước và giải quyết trọn vẹn tác vụ thực tế."
     },
     {
       "category": "Giáo dục & Khoa học",
-      "headline": "Đổi mới phương pháp học tập kết hợp công nghệ cá nhân hoá",
-      "content": "Nhiều trường đại học hàng đầu đang thí điểm đưa các công cụ trợ lý AI vào đồng hành cùng người học, giúp giảm áp lực và nâng cao tính tương tác."
+      "headline": "Đổi mới phương pháp dạy học kết hợp công nghệ cá nhân hoá",
+      "content": "Nhiều trường học đẩy mạnh đưa công cụ trợ lý AI đồng hành cùng giáo viên và học sinh, nâng cao tính tương tác và tư duy sáng tạo."
+    },
+    {
+      "category": "Đắk Lắk & Tây Nguyên",
+      "headline": "Đắk Lắk thúc đẩy chuyển đổi số và các công trình hạ tầng trọng điểm",
+      "content": "Tỉnh Đắk Lắk đẩy nhanh tiến độ các dự án phát triển đô thị Buôn Ma Thuột, đồng thời xúc tiến thương mại nông sản cà phê chất lượng cao ra thị trường quốc tế."
     }
   ],
-  "quick_takeaway": "Làn sóng ứng dụng AI đang chuyển dịch mạnh mẽ từ 'thử nghiệm tính năng' sang 'tối ưu hoá công việc thực tế' trên toàn cầu."
+  "quick_takeaway": "Ứng dụng AI và chuyển đổi số đang diễn ra mạnh mẽ từ quy mô toàn cầu tới từng địa phương."
 }

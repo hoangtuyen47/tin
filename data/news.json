@@ -1,134 +1,452 @@
 [
   {
-    "id": "art_13",
-    "title": "Ukraine and Russia trade strikes on key bridges",
+    "id": "daklak_1",
+    "title": "Khởi công dự án nhà ở gần 870 tỷ đồng cho cán bộ, chiến sĩ Công an nhân dân tại Đắk Lắk",
+    "title_vi": "Khởi công dự án nhà ở gần 870 tỷ đồng cho cán bộ, chiến sĩ Công an nhân dân tại Đắk Lắk",
+    "link": "https://baodaklak.vn/tin-noi-bat/202611/khoi-cong-du-an-nha-o-gan-870-ty-dong-cho-can-bo-chien-si-cong-an-nhan-dan-tai-dak-lak-3ab290e/",
+    "image": "https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/112026/5tu_20261117122339.jpg?width=600px",
+    "source": "Báo Đắk Lắk Điện Tử",
+    "category": "Đắk Lắk & Tây Nguyên",
+    "lang": "vi",
+    "published_at": "2026-11-17T08:34:27.476845+00:00",
+    "timestamp": 1794904467,
+    "original_summary": "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+    "summary_points": [
+      "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+      "Thông tin chính thống do toà soạn Báo Đắk Lắk Điện Tử ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7,
+    "tags": [
+      "Đắk Lắk",
+      "Tây Nguyên",
+      "Buôn Ma Thuột"
+    ]
+  },
+  {
+    "id": "daklak_2",
+    "title": "Chung một đại dương - Chung một tương lai",
+    "title_vi": "Chung một đại dương - Chung một tương lai",
+    "link": "https://baodaklak.vn/chinh-tri/202611/chung-mot-dai-duong-chung-mot-tuong-lai-9226f21/",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+    "source": "Báo Đắk Lắk Điện Tử",
+    "category": "Đắk Lắk & Tây Nguyên",
+    "lang": "vi",
+    "published_at": "2026-11-17T08:34:27.476845+00:00",
+    "timestamp": 1794904467,
+    "original_summary": "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+    "summary_points": [
+      "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+      "Thông tin chính thống do toà soạn Báo Đắk Lắk Điện Tử ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7,
+    "tags": [
+      "Đắk Lắk",
+      "Tây Nguyên",
+      "Buôn Ma Thuột"
+    ]
+  },
+  {
+    "id": "daklak_3",
+    "title": "Đắk Lắk triển khai đồng bộ các biện pháp ứng phó không khí lạnh tăng cường, gió mạnh và mưa lớn",
+    "title_vi": "Đắk Lắk triển khai đồng bộ các biện pháp ứng phó không khí lạnh tăng cường, gió mạnh và mưa lớn",
+    "link": "https://baodaklak.vn/kinh-te/202611/dak-lak-trien-khai-dong-bo-cac-bien-phap-ung-pho-khong-khi-lanh-tang-cuong-gio-manh-va-mua-lon-4f42197/",
+    "image": "https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/112026/hoa_thinh_20261117115838.jpg?width=600px",
+    "source": "Báo Đắk Lắk Điện Tử",
+    "category": "Đắk Lắk & Tây Nguyên",
+    "lang": "vi",
+    "published_at": "2026-11-17T08:34:27.476845+00:00",
+    "timestamp": 1794904467,
+    "original_summary": "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+    "summary_points": [
+      "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+      "Thông tin chính thống do toà soạn Báo Đắk Lắk Điện Tử ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7,
+    "tags": [
+      "Đắk Lắk",
+      "Tây Nguyên",
+      "Buôn Ma Thuột"
+    ]
+  },
+  {
+    "id": "daklak_4",
+    "title": "Khảo sát dư luận xã hội về khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân",
+    "title_vi": "Khảo sát dư luận xã hội về khám sức khỏe định kỳ, khám sàng lọc miễn phí cho người dân",
+    "link": "https://baodaklak.vn/van-hoa-xa-hoi/y-te/202611/khao-sat-du-luan-xa-hoi-ve-kham-suc-khoe-dinh-ky-kham-sang-loc-mien-phi-cho-nguoi-dan-80713af/",
+    "image": "https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/112026/vfdsa_20261117110938.jpg?width=600px",
+    "source": "Báo Đắk Lắk Điện Tử",
+    "category": "Đắk Lắk & Tây Nguyên",
+    "lang": "vi",
+    "published_at": "2026-11-17T08:34:27.476845+00:00",
+    "timestamp": 1794904467,
+    "original_summary": "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+    "summary_points": [
+      "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+      "Thông tin chính thống do toà soạn Báo Đắk Lắk Điện Tử ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7,
+    "tags": [
+      "Đắk Lắk",
+      "Tây Nguyên",
+      "Buôn Ma Thuột"
+    ]
+  },
+  {
+    "id": "daklak_5",
+    "title": "Sôi nổi Hội thi Giai điệu tuổi hồng năm 2026",
+    "title_vi": "Sôi nổi Hội thi Giai điệu tuổi hồng năm 2026",
+    "link": "https://baodaklak.vn/van-hoa-xa-hoi/202611/soi-noi-hoi-thi-giai-dieu-tuoi-hong-nam-2026-37960e8/",
+    "image": "https://baodaklak.vn/file/fb9e3a03798789de0179a1704dea238e/112026/1794838198721_1863722262337732798_8991901618429669802_16142aa63b1d26dffdebae2eabb4272d_20261117094106.jpg?width=600px",
+    "source": "Báo Đắk Lắk Điện Tử",
+    "category": "Đắk Lắk & Tây Nguyên",
+    "lang": "vi",
+    "published_at": "2026-11-17T08:34:27.476845+00:00",
+    "timestamp": 1794904467,
+    "original_summary": "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+    "summary_points": [
+      "Tin tức thời sự, kinh tế, đời sống văn hóa mới nhất tại tỉnh Đắk Lắk. Nguồn Báo Đắk Lắk.",
+      "Thông tin chính thống do toà soạn Báo Đắk Lắk Điện Tử ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7,
+    "tags": [
+      "Đắk Lắk",
+      "Tây Nguyên",
+      "Buôn Ma Thuột"
+    ]
+  },
+  {
+    "id": "art_1",
+    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+    "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+    "source": "TechCrunch AI",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T23:32:32+00:00",
+    "timestamp": 1794871952,
+    "original_summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+    "title_vi": "Cybersecurity Công ty khởi nghiệp AI Corma đạt mốc $1B valuation in about 3 months",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin TechCrunch AI.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_2",
+    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+    "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+    "source": "TechCrunch AI",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T22:03:02+00:00",
+    "timestamp": 1794866582,
+    "original_summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+    "title_vi": "[Tin Quốc tế] All the questions Nvidia should answer on Tuesday — but probably won’t",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin TechCrunch AI.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_3",
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+    "source": "TechCrunch AI",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T20:07:13+00:00",
+    "timestamp": 1794859633,
+    "original_summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+    "title_vi": "[Tin Quốc tế] California state AG sues OpenAI over rogue agent incidents",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin TechCrunch AI.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_4",
+    "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
+    "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80",
+    "source": "The Verge Tech",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T18:35:58-05:00",
+    "timestamp": 1794872158,
+    "original_summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November [&#8230;]",
+    "title_vi": "[Tin Quốc tế] Hacker behind 2022 GTA VI leaks pleads guilty",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin The Verge Tech.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_5",
+    "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+    "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+    "source": "The Verge Tech",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T18:17:34-05:00",
+    "timestamp": 1794871054,
+    "original_summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]",
+    "title_vi": "[Tin Quốc tế] Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin The Verge Tech.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_6",
+    "title": "United Airlines system outage disrupts departures just days after the big ground stop",
+    "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80",
+    "source": "The Verge Tech",
+    "category": "AI & Công nghệ",
+    "lang": "en",
+    "published_at": "2026-11-16T17:54:59-05:00",
+    "timestamp": 1794869699,
+    "original_summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related issue that impacted some departing flights. The issue [&#8230;]",
+    "title_vi": "[Tin Quốc tế] United Airlines system outage disrupts departures just days after the big ground stop",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin The Verge Tech.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_7",
+    "title": "Sam Altman nói về Jensen Huang: 'Người hùng cũng có khuyết điểm'",
+    "link": "https://vnexpress.net/sam-altman-noi-ve-jensen-huang-nguoi-hung-cung-co-khuyet-diem-5145580.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/17/jhh-oai-announce-sep25-pressx1-6203-8590-1794887176.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=izd22sM6SMLIKtSDL4qvAg",
+    "source": "VnExpress Số Hoá",
+    "category": "AI & Công nghệ",
+    "lang": "vi",
+    "published_at": "2026-11-17T12:00:00+07:00",
+    "timestamp": 1794891600,
+    "original_summary": "CEO OpenAI Sam Altman nói \"đồng cảm sâu sắc\" với Jensen Huang, nhưng từ chối bình luận về khả năng cựu CEO Nvidia quay lại công ty.",
+    "title_vi": "Sam Altman nói về Jensen Huang: 'Người hùng cũng có khuyết điểm'",
+    "summary_points": [
+      "CEO OpenAI Sam Altman nói \"đồng cảm sâu sắc\" với Jensen Huang, nhưng từ chối bình luận về khả năng cựu CEO Nvidia quay lại công ty.",
+      "Thông tin chính thống do toà soạn VnExpress Số Hoá ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_8",
+    "title": "Giá tiền ảo Pi xuống mức thấp nhất từ khi mở mạng",
+    "link": "https://vnexpress.net/gia-tien-ao-pi-xuong-muc-thap-nhat-tu-khi-mo-mang-5145532.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/17/dsc02357-jpg-1794883878-4641-1794884016.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9GKs5WaBSCSB4jucdbNxbw",
+    "source": "VnExpress Số Hoá",
+    "category": "AI & Công nghệ",
+    "lang": "vi",
+    "published_at": "2026-11-17T11:00:00+07:00",
+    "timestamp": 1794888000,
+    "original_summary": "Giá tiền ảo Pi lần đầu chạm mốc 0,05 USD, giảm 98% giá trị so với mức đỉnh 3 USD, trong bối cảnh dự án không chuyển biến tích cực.",
+    "title_vi": "Giá tiền ảo Pi xuống mức thấp nhất từ khi mở mạng",
+    "summary_points": [
+      "Giá tiền ảo Pi lần đầu chạm mốc 0,05 USD, giảm 98% giá trị so với mức đỉnh 3 USD, trong bối cảnh dự án không chuyển biến tích cực.",
+      "Thông tin chính thống do toà soạn VnExpress Số Hoá ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_9",
+    "title": "Thiết kế giúp máy bay điện Trung Quốc có thể bay liên tục 400 km",
+    "link": "https://vnexpress.net/thiet-ke-giup-may-bay-dien-trung-quoc-co-the-bay-lien-tuc-400-km-5145330.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/16/VNEComac-1794820078-9095-1794820131.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=_YbWQy0VGJ0LMwi7Q3N3ug",
+    "source": "VnExpress Số Hoá",
+    "category": "AI & Công nghệ",
+    "lang": "vi",
+    "published_at": "2026-11-17T10:06:32+07:00",
+    "timestamp": 1794884792,
+    "original_summary": "Máy bay CE-25A 19 chỗ vừa thực hiện thành công chuyến bay có phi công đầu tiên với quãng đường hơn 60 km, được thiết kế khác biệt với động cơ điện và hệ thống quạt đẩy dọc cánh.",
+    "title_vi": "Thiết kế giúp máy bay điện Trung Quốc có thể bay liên tục 400 km",
+    "summary_points": [
+      "Máy bay CE-25A 19 chỗ vừa thực hiện thành công chuyến bay có phi công đầu tiên với quãng đường hơn 60 km, được thiết kế khác biệt với động cơ điện và hệ thống q",
+      "Thông tin chính thống do toà soạn VnExpress Số Hoá ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_10",
+    "title": "Crimea bridge shut after reported Ukrainian strike, as Russia hits Kyiv crossings",
     "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80",
     "source": "BBC News (World)",
     "category": "Thời sự Quốc tế",
     "lang": "en",
-    "published_at": "2026-11-17T07:30:43+00:00",
-    "timestamp": 1794900643,
-    "original_summary": "A bridge linking Crimea and Russia has reportedly been damaged, while two major routes through Kyiv are closed.",
-    "title_vi": "[Dịch] Ukraine and Russia trade strikes on key bridges",
+    "published_at": "2026-11-17T08:06:32+00:00",
+    "timestamp": 1794902792,
+    "original_summary": "The bridge linking Crimea and Russia has reportedly sustained major damage, while two routes through Kyiv are closed.",
+    "title_vi": "[Tin Quốc tế] Crimea bridge shut after reported Ukrainian strike, as Russia hits Kyiv crossings",
     "summary_points": [
-      "A bridge linking Crimea and Russia has reportedly been damaged, while two major routes through Kyiv are closed.",
-      "Nguồn tin chính thống: BBC News (World).",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Diễn biến mới cập nhật từ hãng tin BBC News (World).",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_17",
-    "title": "Portugal coach Jorge Jesus responds to criticism from Ronaldo’s mother",
-    "link": "https://www.aljazeera.com/sports/2026/11/17/cristiano-ronaldo-mother-portugal-coach-jorge-jesus?traffic_source=rss",
-    "source": "Al Jazeera English",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T07:21:25+00:00",
-    "timestamp": 1794900085,
-    "original_summary": "Ronaldo&#039;s mother said she was glad to see Jesus suffer his first defeat after he had &#039;deceived&#039; her son.",
-    "title_vi": "[Dịch] Portugal coach Jorge Jesus responds to criticism from Ronaldo’s mother",
-    "summary_points": [
-      "Ronaldo&#039;s mother said she was glad to see Jesus suffer his first defeat after he had &#039;deceived&#039; her son.",
-      "Nguồn tin chính thống: Al Jazeera English.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_18",
-    "title": "The new French malaise",
-    "link": "https://www.aljazeera.com/opinions/2026/11/17/the-new-french-malaise?traffic_source=rss",
-    "source": "Al Jazeera English",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T07:03:12+00:00",
-    "timestamp": 1794898992,
-    "original_summary": "The ongoing student protests in France are a symptom of a much larger crisis affecting French society.",
-    "title_vi": "[Dịch] The new French malaise",
-    "summary_points": [
-      "The ongoing student protests in France are a symptom of a much larger crisis affecting French society.",
-      "Nguồn tin chính thống: Al Jazeera English.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_19",
-    "title": "Will Netanyahu lose this time?",
-    "link": "https://www.aljazeera.com/opinions/2026/11/17/will-netanyahu-finally-lose?traffic_source=rss",
-    "source": "Al Jazeera English",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T06:53:23+00:00",
-    "timestamp": 1794898403,
-    "original_summary": "The Israeli prime minister has manoeuvred out of tough situations to retain power. But he may find it hard this time.",
-    "title_vi": "[Dịch] Will Netanyahu lose this time?",
-    "summary_points": [
-      "The Israeli prime minister has manoeuvred out of tough situations to retain power. But he may find it hard this time.",
-      "Nguồn tin chính thống: Al Jazeera English.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_20",
-    "title": "Palestine Weekly: Israel’s political reshuffle as the occupation grinds on",
-    "link": "https://www.aljazeera.com/news/2026/11/17/palestine-weekly-israels-political-reshuffle-as-the-occupation-grinds-on?traffic_source=rss",
-    "source": "Al Jazeera English",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T06:06:58+00:00",
-    "timestamp": 1794895618,
-    "original_summary": "As Eisenkot’s bloc moves to form a government and courts the ultra-Orthodox, Gaza genocide and settler pogroms continue.",
-    "title_vi": "[Dịch] Palestine Weekly: Israel’s political reshuffle as the occupation grinds on",
-    "summary_points": [
-      "As Eisenkot’s bloc moves to form a government and courts the ultra-Orthodox, Gaza genocide and settler pogroms continue.",
-      "Nguồn tin chính thống: Al Jazeera English.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_14",
+    "id": "art_11",
     "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
     "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
     "source": "BBC News (World)",
     "category": "Thời sự Quốc tế",
     "lang": "en",
     "published_at": "2026-11-17T05:59:01+00:00",
     "timestamp": 1794895141,
     "original_summary": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
-    "title_vi": "[Dịch] Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+    "title_vi": "[Tin Quốc tế] Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
     "summary_points": [
-      "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
-      "Nguồn tin chính thống: BBC News (World).",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Diễn biến mới cập nhật từ hãng tin BBC News (World).",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_37",
-    "title": "Bí thư Thành ủy TP.HCM Trần Lưu Quang thăm, chúc mừng PGS.TS Phan Thanh Bình nhân Ngày Nhà giáo Việt Nam",
-    "link": "https://tuoitre.vn/bi-thu-thanh-uy-tphcm-tran-luu-quang-tham-chuc-mung-pgsts-phan-thanh-binh-nhan-ngay-nha-giao-viet-nam-100261117121431134.htm",
-    "source": "Tuổi Trẻ Giáo Dục",
-    "category": "Giáo dục & Khoa học",
+    "id": "art_12",
+    "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+    "link": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "source": "BBC News (World)",
+    "category": "Thời sự Quốc tế",
+    "lang": "en",
+    "published_at": "2026-11-17T01:26:01+00:00",
+    "timestamp": 1794878761,
+    "original_summary": "Pakistan's ex-prime minister, who has been in prison since August 2023, says he has been denied justice.",
+    "title_vi": "[Tin Quốc tế] Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin BBC News (World).",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_13",
+    "title": "Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
+    "link": "https://www.aljazeera.com/news/2026/11/17/ukrainian-drone-attack-kills-two-in-crimea-as-kyiv-targets-kerch-bridge?traffic_source=rss",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80",
+    "source": "Al Jazeera English",
+    "category": "Thời sự Quốc tế",
+    "lang": "en",
+    "published_at": "2026-11-17T08:12:06+00:00",
+    "timestamp": 1794903126,
+    "original_summary": "Moscow-installed governor says traffic suspended after second attack on bridge in two days.",
+    "title_vi": "[Tin Quốc tế] Ukraine drone attack kills two in Crimea as Kyiv targets bridge to Russia",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin Al Jazeera English.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_14",
+    "title": "AI models abandon climate facts to please users, UNESCO report finds",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/ai-models-abandon-climate-facts-to-please-users-unesco-report-finds?traffic_source=rss",
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80",
+    "source": "Al Jazeera English",
+    "category": "Thời sự Quốc tế",
+    "lang": "en",
+    "published_at": "2026-11-17T08:10:26+00:00",
+    "timestamp": 1794903026,
+    "original_summary": "AI models abandon climate facts to agree with users in eight out of 10 tests.",
+    "title_vi": "[Tin Quốc tế] AI models abandon climate facts to please users, UNESCO report finds",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin Al Jazeera English.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_15",
+    "title": "Andy Burnham says Brexit is what the UK’s ‘enemies’ wanted",
+    "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/andy-burnham-says-brexit-is-what-the-uks-enemies-wanted?traffic_source=rss",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    "source": "Al Jazeera English",
+    "category": "Thời sự Quốc tế",
+    "lang": "en",
+    "published_at": "2026-11-17T08:04:35+00:00",
+    "timestamp": 1794902675,
+    "original_summary": "UK Prime Minister Andy Burnham slammed Brexit in a speech at the Lord Mayor’s Banquet.",
+    "title_vi": "[Tin Quốc tế] Andy Burnham says Brexit is what the UK’s ‘enemies’ wanted",
+    "summary_points": [
+      "Diễn biến mới cập nhật từ hãng tin Al Jazeera English.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_16",
+    "title": "Lãnh đạo Mỹ - Nga - Trung sẽ bàn gì khi lần đầu họp thượng đỉnh ba bên?",
+    "link": "https://vnexpress.net/lanh-dao-my-nga-trung-se-ban-gi-khi-lan-dau-hop-thuong-dinh-ba-ben-5145243.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/16/anh1-1794817023-1956-1794817378.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=pgwFTO3JXSLE897yGsZUyA",
+    "source": "VnExpress Thế Giới",
+    "category": "Thời sự Quốc tế",
     "lang": "vi",
-    "published_at": "2026-11-17T12:37:00",
-    "timestamp": 1794893820,
-    "original_summary": "Sáng 17-11, Bí thư Thành ủy TP.HCM Trần Lưu Quang đã đến thăm, chúc mừng PGS.TS Phan Thanh Bình, nguyên Ủy viên Trung ương Đảng, nguyên Giám đốc Đại học Quốc gia TP.HCM, nhân kỷ niệm 44 năm Ngày Nhà giáo Việt Nam (20-11-1982 - 20-11-2026).",
-    "title_vi": "Bí thư Thành ủy TP.HCM Trần Lưu Quang thăm, chúc mừng PGS.TS Phan Thanh Bình nhân Ngày Nhà giáo Việt Nam",
+    "published_at": "2026-11-17T14:06:09+07:00",
+    "timestamp": 1794899169,
+    "original_summary": "Hội nghị thượng đỉnh ba bên Mỹ - Nga - Trung tại Thâm Quyến là cơ hội để lãnh đạo ba nước thảo luận về các vấn đề chiến lược, nhưng khó tạo đột phá.",
+    "title_vi": "Lãnh đạo Mỹ - Nga - Trung sẽ bàn gì khi lần đầu họp thượng đỉnh ba bên?",
     "summary_points": [
-      "Sáng 17-11, Bí thư Thành ủy TP.HCM Trần Lưu Quang đã đến thăm, chúc mừng PGS.TS Phan Thanh Bình, nguyên Ủy viên Trung ương Đảng, nguyên Giám đốc Đại h",
-      "Nguồn tin chính thống: Tuổi Trẻ Giáo Dục.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Hội nghị thượng đỉnh ba bên Mỹ - Nga - Trung tại Thâm Quyến là cơ hội để lãnh đạo ba nước thảo luận về các vấn đề chiến lược, nhưng khó tạo đột phá.",
+      "Thông tin chính thống do toà soạn VnExpress Thế Giới ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_29",
+    "id": "art_17",
+    "title": "Chuyên gia pháp y nêu giả thuyết tỷ phú ấu dâm Epstein 'bị giết'",
+    "link": "https://vnexpress.net/chuyen-gia-phap-y-neu-gia-thuyet-ty-phu-au-dam-epstein-bi-giet-5145609.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/17/jeffrey-epstein-1794891189-1698-1794891282.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qGuUlJRkaXNqvVPshAt48Q",
+    "source": "VnExpress Thế Giới",
+    "category": "Thời sự Quốc tế",
+    "lang": "vi",
+    "published_at": "2026-11-17T14:05:40+07:00",
+    "timestamp": 1794899140,
+    "original_summary": "Một nhóm chuyên gia pháp y cho rằng thi thể của Epstein có dấu hiệu bị hành hung, siết cổ, dù cơ quan pháp y New York kết luận tự tử.",
+    "title_vi": "Chuyên gia pháp y nêu giả thuyết tỷ phú ấu dâm Epstein 'bị giết'",
+    "summary_points": [
+      "Một nhóm chuyên gia pháp y cho rằng thi thể của Epstein có dấu hiệu bị hành hung, siết cổ, dù cơ quan pháp y New York kết luận tự tử.",
+      "Thông tin chính thống do toà soạn VnExpress Thế Giới ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_18",
     "title": "Tổng thống Mông Cổ thông báo từ chức",
     "link": "https://vnexpress.net/tong-thong-mong-co-thong-bao-tu-chuc-5145637.html",
+    "image": "https://i1-vnexpress.vnecdn.net/2026/11/17/afpqt9eg-v1-highres-britainmon-2267-5966-1794891698.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FHIXyptUtDsQC5mvyHAaag",
     "source": "VnExpress Thế Giới",
     "category": "Thời sự Quốc tế",
     "lang": "vi",
@@ -138,584 +456,122 @@
     "title_vi": "Tổng thống Mông Cổ thông báo từ chức",
     "summary_points": [
       "Tổng thống Mông Cổ Khurelsukh Ukhnaa thông báo sẽ từ chức sau khi đảng đối lập cáo buộc ông thu lợi bất chính từ một dự án đường sắt.",
-      "Nguồn tin chính thống: VnExpress Thế Giới.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Thông tin chính thống do toà soạn VnExpress Thế Giới ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_33",
-    "title": "Sam Altman nói về Jensen Huang: 'Người hùng cũng có khuyết điểm'",
-    "link": "https://vnexpress.net/sam-altman-noi-ve-jensen-huang-nguoi-hung-cung-co-khuyet-diem-5145580.html",
-    "source": "VnExpress Khoa Học / Số Hoá",
-    "category": "AI & Công nghệ",
-    "lang": "vi",
-    "published_at": "2026-11-17T12:00:00+07:00",
-    "timestamp": 1794891600,
-    "original_summary": "CEO OpenAI Sam Altman nói \"đồng cảm sâu sắc\" với Jensen Huang, nhưng từ chối bình luận về khả năng cựu CEO Nvidia quay lại công ty.",
-    "title_vi": "Sam Altman nói về Jensen Huang: 'Người hùng cũng có khuyết điểm'",
-    "summary_points": [
-      "CEO OpenAI Sam Altman nói \"đồng cảm sâu sắc\" với Jensen Huang, nhưng từ chối bình luận về khả năng cựu CEO Nvidia quay lại công ty.",
-      "Nguồn tin chính thống: VnExpress Khoa Học / Số Hoá.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_38",
-    "title": "Hôm nay giảng viên có điểm danh không?",
-    "link": "https://tuoitre.vn/hom-nay-giang-vien-co-diem-danh-khong-100261116094329577.htm",
-    "source": "Tuổi Trẻ Giáo Dục",
-    "category": "Giáo dục & Khoa học",
-    "lang": "vi",
-    "published_at": "2026-11-17T12:00:00",
-    "timestamp": 1794891600,
-    "original_summary": "'Hôm nay giảng viên có điểm danh không ta?' - có lẽ đây là một trong những câu hỏi quen thuộc của sinh viên trước mỗi buổi học.",
-    "title_vi": "Hôm nay giảng viên có điểm danh không?",
-    "summary_points": [
-      "'Hôm nay giảng viên có điểm danh không ta?' - có lẽ đây là một trong những câu hỏi quen thuộc của sinh viên trước mỗi buổi học.",
-      "Nguồn tin chính thống: Tuổi Trẻ Giáo Dục.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_39",
-    "title": "Hơn 27.000 du học sinh Việt tại Mỹ, cao nhất lịch sử",
-    "link": "https://tuoitre.vn/hon-27000-du-hoc-sinh-viet-tai-my-cao-nhat-lich-su-10026111711221601.htm",
-    "source": "Tuổi Trẻ Giáo Dục",
-    "category": "Giáo dục & Khoa học",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:32:00",
-    "timestamp": 1794889920,
-    "original_summary": "Năm học 2025-2026, số du học sinh Việt Nam tại Mỹ đạt 27.257 người, tăng 6,5% dù tổng số sinh viên quốc tế tại nước này giảm.",
-    "title_vi": "Hơn 27.000 du học sinh Việt tại Mỹ, cao nhất lịch sử",
-    "summary_points": [
-      "Năm học 2025-2026, số du học sinh Việt Nam tại Mỹ đạt 27.257 người, tăng 6,5% dù tổng số sinh viên quốc tế tại nước này giảm.",
-      "Nguồn tin chính thống: Tuổi Trẻ Giáo Dục.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_30",
-    "title": "Những con đập bí ẩn nơi đồng không mông quạnh của Iran",
-    "link": "https://vnexpress.net/nhung-con-dap-bi-an-noi-dong-khong-mong-quanh-cua-iran-5145462.html",
-    "source": "VnExpress Thế Giới",
-    "category": "Thời sự Quốc tế",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:30:57+07:00",
-    "timestamp": 1794889857,
-    "original_summary": "Mỹ không kích mục tiêu gần nhiều con đập ở vùng hẻo lánh tại Iran, cho thấy đây có thể là hạ tầng cấp điện, nước cho các căn cứ tên lửa ngầm.",
-    "title_vi": "Những con đập bí ẩn nơi đồng không mông quạnh của Iran",
-    "summary_points": [
-      "Mỹ không kích mục tiêu gần nhiều con đập ở vùng hẻo lánh tại Iran, cho thấy đây có thể là hạ tầng cấp điện, nước cho các căn cứ tên lửa ngầm.",
-      "Nguồn tin chính thống: VnExpress Thế Giới.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_31",
-    "title": "Nhật điều tiêm kích ứng phó 'máy bay Nga xâm phạm không phận'",
-    "link": "https://vnexpress.net/nhat-dieu-tiem-kich-ung-pho-may-bay-nga-xam-pham-khong-phan-5145543.html",
-    "source": "VnExpress Thế Giới",
-    "category": "Thời sự Quốc tế",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:30:18+07:00",
-    "timestamp": 1794889818,
-    "original_summary": "Nhật Bản cáo buộc hai máy bay nghi của Nga xâm phạm không phận, tuyên bố đã triển khai tiêm kích ứng phó và gửi công hàm phản đối.",
-    "title_vi": "Nhật điều tiêm kích ứng phó 'máy bay Nga xâm phạm không phận'",
-    "summary_points": [
-      "Nhật Bản cáo buộc hai máy bay nghi của Nga xâm phạm không phận, tuyên bố đã triển khai tiêm kích ứng phó và gửi công hàm phản đối.",
-      "Nguồn tin chính thống: VnExpress Thế Giới.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_40",
-    "title": "Chủ tịch UBND TP.HCM Lê Quốc Phong thăm GS.TS Nguyễn Tấn Phát nhân dịp 20-11",
-    "link": "https://tuoitre.vn/chu-tich-ubnd-tphcm-le-quoc-phong-tham-gsts-nguyen-tan-phat-nhan-dip-20-11-100261117101858454.htm",
-    "source": "Tuổi Trẻ Giáo Dục",
-    "category": "Giáo dục & Khoa học",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:10:00",
-    "timestamp": 1794888600,
-    "original_summary": "Nhân ngày 20-11, Chủ tịch UBND TP.HCM Lê Quốc Phong thăm hỏi, tri ân những đóng góp của GS.TS Nguyễn Tấn Phát - nguyên Thứ trưởng Bộ Giáo dục và Đào tạo, nguyên Giám đốc Đại học Quốc gia TP.HCM, đối với nền giáo dục và sự phát triển của thành phố.",
-    "title_vi": "Chủ tịch UBND TP.HCM Lê Quốc Phong thăm GS.TS Nguyễn Tấn Phát nhân dịp 20-11",
-    "summary_points": [
-      "Nhân ngày 20-11, Chủ tịch UBND TP.HCM Lê Quốc Phong thăm hỏi, tri ân những đóng góp của GS.TS Nguyễn Tấn Phát - nguyên Thứ trưởng Bộ Giáo dục và Đào t",
-      "Nguồn tin chính thống: Tuổi Trẻ Giáo Dục.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_32",
-    "title": "Ukraine phóng 'hàng chục tên lửa, UAV' nhằm vào cầu Crimea",
-    "link": "https://vnexpress.net/ukraine-phong-hang-chuc-ten-lua-uav-nham-vao-cau-crimea-5145572.html",
-    "source": "VnExpress Thế Giới",
-    "category": "Thời sự Quốc tế",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:09:44+07:00",
-    "timestamp": 1794888584,
-    "original_summary": "Ukraine phóng nhiều tên lửa hành trình và UAV nhằm vào cầu Crimea, đòn tấn công thứ hai trong vòng 24 giờ qua.",
-    "title_vi": "Ukraine phóng 'hàng chục tên lửa, UAV' nhằm vào cầu Crimea",
-    "summary_points": [
-      "Ukraine phóng nhiều tên lửa hành trình và UAV nhằm vào cầu Crimea, đòn tấn công thứ hai trong vòng 24 giờ qua.",
-      "Nguồn tin chính thống: VnExpress Thế Giới.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_34",
-    "title": "Giá tiền ảo Pi xuống mức thấp nhất từ khi mở mạng",
-    "link": "https://vnexpress.net/gia-tien-ao-pi-xuong-muc-thap-nhat-tu-khi-mo-mang-5145532.html",
-    "source": "VnExpress Khoa Học / Số Hoá",
-    "category": "AI & Công nghệ",
-    "lang": "vi",
-    "published_at": "2026-11-17T11:00:00+07:00",
-    "timestamp": 1794888000,
-    "original_summary": "Giá tiền ảo Pi lần đầu chạm mốc 0,05 USD, giảm 98% giá trị so với mức đỉnh 3 USD, trong bối cảnh dự án không chuyển biến tích cực.",
-    "title_vi": "Giá tiền ảo Pi xuống mức thấp nhất từ khi mở mạng",
-    "summary_points": [
-      "Giá tiền ảo Pi lần đầu chạm mốc 0,05 USD, giảm 98% giá trị so với mức đỉnh 3 USD, trong bối cảnh dự án không chuyển biến tích cực.",
-      "Nguồn tin chính thống: VnExpress Khoa Học / Số Hoá.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_35",
-    "title": "Thiết kế giúp máy bay điện Trung Quốc có thể bay liên tục 400 km",
-    "link": "https://vnexpress.net/thiet-ke-giup-may-bay-dien-trung-quoc-co-the-bay-lien-tuc-400-km-5145330.html",
-    "source": "VnExpress Khoa Học / Số Hoá",
-    "category": "AI & Công nghệ",
-    "lang": "vi",
-    "published_at": "2026-11-17T10:06:32+07:00",
-    "timestamp": 1794884792,
-    "original_summary": "Máy bay CE-25A 19 chỗ vừa thực hiện thành công chuyến bay có phi công đầu tiên với quãng đường hơn 60 km, được thiết kế khác biệt với động cơ điện và hệ thống quạt đẩy dọc cánh.",
-    "title_vi": "Thiết kế giúp máy bay điện Trung Quốc có thể bay liên tục 400 km",
-    "summary_points": [
-      "Máy bay CE-25A 19 chỗ vừa thực hiện thành công chuyến bay có phi công đầu tiên với quãng đường hơn 60 km, được thiết kế khác biệt với động cơ điện và ",
-      "Nguồn tin chính thống: VnExpress Khoa Học / Số Hoá.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_16",
-    "title": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News (World)",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T02:37:53+00:00",
-    "timestamp": 1794883073,
-    "original_summary": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-    "title_vi": "[Dịch] Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
-    "summary_points": [
-      "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-      "Nguồn tin chính thống: BBC News (World).",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_36",
-    "title": "Apple cập nhật mở khóa khuôn mặt cho iPhone Duo",
-    "link": "https://vnexpress.net/apple-cap-nhat-mo-khoa-khuon-mat-cho-iphone-duo-5145523.html",
-    "source": "VnExpress Khoa Học / Số Hoá",
-    "category": "AI & Công nghệ",
-    "lang": "vi",
-    "published_at": "2026-11-17T09:30:26+07:00",
-    "timestamp": 1794882626,
-    "original_summary": "iPhone Duo bổ sung tính năng mở khóa bằng khuôn mặt qua phần mềm iOS 27.3 Beta 2 nhưng không hỗ trợ xác thực giao dịch như Face ID truyền thống.",
-    "title_vi": "Apple cập nhật mở khóa khuôn mặt cho iPhone Duo",
-    "summary_points": [
-      "iPhone Duo bổ sung tính năng mở khóa bằng khuôn mặt qua phần mềm iOS 27.3 Beta 2 nhưng không hỗ trợ xác thực giao dịch như Face ID truyền thống.",
-      "Nguồn tin chính thống: VnExpress Khoa Học / Số Hoá.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_15",
-    "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-    "link": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-    "source": "BBC News (World)",
-    "category": "Thời sự Quốc tế",
-    "lang": "en",
-    "published_at": "2026-11-17T01:26:01+00:00",
-    "timestamp": 1794878761,
-    "original_summary": "Pakistan's ex-prime minister, who has been in prison since August 2023, says he has been denied justice.",
-    "title_vi": "[Dịch] Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-    "summary_points": [
-      "Pakistan's ex-prime minister, who has been in prison since August 2023, says he has been denied justice.",
-      "Nguồn tin chính thống: BBC News (World).",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_5",
-    "title": "Hacker behind 2022 GTA VI leaks pleads guilty",
-    "link": "https://www.theverge.com/games/1035087/gta-vi-leaks-2022-hacker-pleads-guilty-arion-kurtaj",
-    "source": "The Verge Tech",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T18:35:58-05:00",
-    "timestamp": 1794872158,
-    "original_summary": "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded guilty on Monday, according to the UK's Crown Prosecution Service (CPS). Kurtaj, who is now 21, hacked BT/EE sometime between August and November 2021, and starting in early November [&#8230;]",
-    "title_vi": "[Dịch] Hacker behind 2022 GTA VI leaks pleads guilty",
-    "summary_points": [
-      "Arion Kurtaj, a member of the Lapsus$ cybercrime group who leaked 90 videos of Grand Theft Auto VI in 2022 and hacked other big companies, pleaded gui",
-      "Nguồn tin chính thống: The Verge Tech.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_1",
-    "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-    "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-    "source": "TechCrunch AI",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T23:32:32+00:00",
-    "timestamp": 1794871952,
-    "original_summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-    "title_vi": "[Dịch] Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-    "summary_points": [
-      "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "Nguồn tin chính thống: TechCrunch AI.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_6",
-    "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-    "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-    "source": "The Verge Tech",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T18:17:34-05:00",
-    "timestamp": 1794871054,
-    "original_summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the [&#8230;]",
-    "title_vi": "[Dịch] Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-    "summary_points": [
-      "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are c",
-      "Nguồn tin chính thống: The Verge Tech.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_7",
-    "title": "United Airlines system outage disrupts departures just days after the big ground stop",
-    "link": "https://www.theverge.com/transportation/1035025/united-airlines-outage-down-departures",
-    "source": "The Verge Tech",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T17:54:59-05:00",
-    "timestamp": 1794869699,
-    "original_summary": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departing flights are being disrupted by an outage. At 6:13PM ET, United said the problem has been fixed: Earlier today we experienced a technology-related issue that impacted some departing flights. The issue [&#8230;]",
-    "title_vi": "[Dịch] United Airlines system outage disrupts departures just days after the big ground stop",
-    "summary_points": [
-      "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide, United Airlines departin",
-      "Nguồn tin chính thống: The Verge Tech.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_2",
-    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-    "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-    "source": "TechCrunch AI",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T22:03:02+00:00",
-    "timestamp": 1794866582,
-    "original_summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
-    "title_vi": "[Dịch] All the questions Nvidia should answer on Tuesday — but probably won’t",
-    "summary_points": [
-      "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third",
-      "Nguồn tin chính thống: TechCrunch AI.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_8",
-    "title": "In Get Huge, the manosphere is here to make friends — with deadly consequences",
-    "link": "https://www.theverge.com/entertainment/1033466/hulu-disney-plus-get-huge-looksmaxxing-to-death",
-    "source": "The Verge Tech",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T16:41:57-05:00",
-    "timestamp": 1794865317,
-    "original_summary": "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, there was an older generation of creators building massive followings with content focused on chemical biohacking. Were it not for steroid-obsessed influencers like Anthony \"Tony Huge\" Hughes launching YouTube channels over a decade [&#8230;]",
-    "title_vi": "[Dịch] In Get Huge, the manosphere is here to make friends — with deadly consequences",
-    "summary_points": [
-      "Before Clavicular and other manosphere streamers were introducing young guys to the concept of breaking their facial bones to become more attractive, ",
-      "Nguồn tin chính thống: The Verge Tech.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_3",
-    "title": "California state AG sues OpenAI over rogue agent incidents",
-    "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-    "source": "TechCrunch AI",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T20:07:13+00:00",
-    "timestamp": 1794859633,
-    "original_summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-    "title_vi": "[Dịch] California state AG sues OpenAI over rogue agent incidents",
-    "summary_points": [
-      "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-      "Nguồn tin chính thống: TechCrunch AI.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_4",
-    "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-    "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-    "source": "TechCrunch AI",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T19:12:02+00:00",
-    "timestamp": 1794856322,
-    "original_summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-    "title_vi": "[Dịch] Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-    "summary_points": [
-      "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-      "Nguồn tin chính thống: TechCrunch AI.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_9",
-    "title": "The open-source movement wants Jensen Huang back",
-    "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-    "source": "MIT Technology Review",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T18:38:47+00:00",
-    "timestamp": 1794854327,
-    "original_summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
-    "title_vi": "[Dịch] The open-source movement wants Jensen Huang back",
-    "summary_points": [
-      "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a",
-      "Nguồn tin chính thống: MIT Technology Review.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_10",
-    "title": "Building trustworthy AI by fencing it in, not predicting it",
-    "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-    "source": "MIT Technology Review",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T16:04:28+00:00",
-    "timestamp": 1794845068,
-    "original_summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
-    "title_vi": "[Dịch] Building trustworthy AI by fencing it in, not predicting it",
-    "summary_points": [
-      "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts a",
-      "Nguồn tin chính thống: MIT Technology Review.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_11",
-    "title": "The Download: testing tech promises and searching for cognitive immortality",
-    "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-    "source": "MIT Technology Review",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T13:10:00+00:00",
-    "timestamp": 1794834600,
-    "original_summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;",
-    "title_vi": "[Dịch] The Download: testing tech promises and searching for cognitive immortality",
-    "summary_points": [
-      "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. ",
-      "Nguồn tin chính thống: MIT Technology Review.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_12",
-    "title": "Building AI that can work across the enterprise",
-    "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-    "source": "MIT Technology Review",
-    "category": "AI & Công nghệ",
-    "lang": "en",
-    "published_at": "2026-11-16T13:00:00+00:00",
-    "timestamp": 1794834000,
-    "original_summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;",
-    "title_vi": "[Dịch] Building AI that can work across the enterprise",
-    "summary_points": [
-      "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the busines",
-      "Nguồn tin chính thống: MIT Technology Review.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_23",
-    "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
-    "source": "ScienceDaily",
-    "category": "Giáo dục & Khoa học",
-    "lang": "en",
-    "published_at": "2026-11-16T09:02:10",
-    "timestamp": 1794794530,
-    "original_summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and pave the way to Mars.",
-    "title_vi": "[Dịch] NASA is offering $1 million for bold ideas to help build a Moon base",
-    "summary_points": [
-      "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first perma",
-      "Nguồn tin chính thống: ScienceDaily.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_21",
+    "id": "art_19",
     "title": "NASA smashed into an asteroid. Now Hera has revealed a strange new world",
     "link": "https://www.sciencedaily.com/releases/2026/11/261116023351.htm",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
     "source": "ScienceDaily",
     "category": "Giáo dục & Khoa học",
     "lang": "en",
     "published_at": "2026-11-16T08:40:11",
     "timestamp": 1794793211,
     "original_summary": "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s historic 2022 asteroid impact. The mission could uncover new clues about the collision and help turn asteroid deflection into a powerful defense against future threats to Earth.",
-    "title_vi": "[Dịch] NASA smashed into an asteroid. Now Hera has revealed a strange new world",
+    "title_vi": "[Tin Quốc tế] NASA smashed into an asteroid. Now Hera has revealed a strange new world",
     "summary_points": [
-      "A European spacecraft has revealed a mysterious, crater-covered side of the asteroid Didymos as it prepares to investigate the aftermath of NASA’s his",
-      "Nguồn tin chính thống: ScienceDaily.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Diễn biến mới cập nhật từ hãng tin ScienceDaily.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_24",
-    "title": "A hidden biological divide may help explain Alzheimer’s and chronic pain",
-    "link": "https://www.sciencedaily.com/releases/2026/11/261115085535.htm",
-    "source": "ScienceDaily",
-    "category": "Giáo dục & Khoa học",
-    "lang": "en",
-    "published_at": "2026-11-16T07:41:09",
-    "timestamp": 1794789669,
-    "original_summary": "New research reveals that biological sex, genetics, and menopause may dramatically influence Alzheimer's risk, treatment responses, and chronic pain conditions such as fibromyalgia. Scientists also uncovered surprising differences in immune activity and gut-brain interactions, opening the door to more personalized treatments for neurological disorders.",
-    "title_vi": "[Dịch] A hidden biological divide may help explain Alzheimer’s and chronic pain",
-    "summary_points": [
-      "New research reveals that biological sex, genetics, and menopause may dramatically influence Alzheimer's risk, treatment responses, and chronic pain c",
-      "Nguồn tin chính thống: ScienceDaily.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_25",
-    "title": "For Special Education Teachers, “Everydayness Is the Enemy”",
-    "link": "https://www.edsurge.com/news/for-special-education-teachers-everydayness-is-the-enemy",
-    "source": "EdSurge News",
-    "category": "Giáo dục & Khoa học",
-    "lang": "en",
-    "published_at": "2026-11-16T00:00:00+00:00",
-    "timestamp": 1794787200,
-    "original_summary": "Routine provides structure, but missing the student behind it stops growth. Here’s how special educators can break the cycle.",
-    "title_vi": "[Dịch] For Special Education Teachers, “Everydayness Is the Enemy”",
-    "summary_points": [
-      "Routine provides structure, but missing the student behind it stops growth. Here’s how special educators can break the cycle.",
-      "Nguồn tin chính thống: EdSurge News.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
-    ],
-    "importance_score": 7
-  },
-  {
-    "id": "art_22",
+    "id": "art_20",
     "title": "The secret to building Moon bases may be hiding in emergency blankets",
     "link": "https://www.sciencedaily.com/releases/2026/11/261115085549.htm",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
     "source": "ScienceDaily",
     "category": "Giáo dục & Khoa học",
     "lang": "en",
     "published_at": "2026-11-15T22:51:01",
     "timestamp": 1794757861,
     "original_summary": "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's extreme temperatures. Built from hundreds of stacked layers, the material withstands crushing pressure without losing its thermal protection, potentially paving the way for tougher, longer-lasting lunar habitats.",
-    "title_vi": "[Dịch] The secret to building Moon bases may be hiding in emergency blankets",
+    "title_vi": "[Tin Quốc tế] The secret to building Moon bases may be hiding in emergency blankets",
     "summary_points": [
-      "Scientists have turned the thin plastic used in emergency blankets into remarkably strong insulation that could help astronauts survive the Moon's ext",
-      "Nguồn tin chính thống: ScienceDaily.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Diễn biến mới cập nhật từ hãng tin ScienceDaily.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_26",
-    "title": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning",
-    "link": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning",
-    "source": "EdSurge News",
+    "id": "art_21",
+    "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
+    "link": "https://www.sciencedaily.com/releases/2026/11/261115085542.htm",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80",
+    "source": "ScienceDaily",
     "category": "Giáo dục & Khoa học",
     "lang": "en",
-    "published_at": "2026-11-11T00:00:00+00:00",
-    "timestamp": 1794355200,
-    "original_summary": "When generative AI exposed the flaws in my traditional assignments, I redesigned student learning experiences — turning AI from a cheating tool to a ...",
-    "title_vi": "[Dịch] The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning",
+    "published_at": "2026-11-16T09:02:10",
+    "timestamp": 1794794530,
+    "original_summary": "NASA is offering $1 million in its new Moon Base Challenge, inviting U.S. students to develop innovative solutions for building humanity’s first permanent lunar outpost. From power systems to astronaut safety, their ideas could help make long-term life on the Moon possible and pave the way to Mars.",
+    "title_vi": "[Tin Quốc tế] NASA is offering $1 million for bold ideas to help build a Moon base",
     "summary_points": [
-      "When generative AI exposed the flaws in my traditional assignments, I redesigned student learning experiences — turning AI from a cheating tool to a .",
-      "Nguồn tin chính thống: EdSurge News.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Diễn biến mới cập nhật từ hãng tin ScienceDaily.",
+      "Sự kiện đang thu hút sự chú ý của dư luận và giới chuyên gia trong ngành.",
+      "Nhấn 'Nguồn gốc' để xem trực tiếp bài phân tích chi tiết."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_27",
-    "title": "Can Schools Prepare Students to Vote Without Telling Them What to Think?",
-    "link": "https://www.edsurge.com/news/can-schools-prepare-students-to-vote-without-telling-them-what-to-think",
-    "source": "EdSurge News",
+    "id": "art_22",
+    "title": "Trường THPT Thủ Đức tròn 50 tuổi, khởi công cơ sở 2 hơn 143 tỉ đồng",
+    "link": "https://tuoitre.vn/truong-thpt-thu-duc-tron-50-tuoi-khoi-cong-co-so-2-hon-143-ti-dong-100261117134140544.htm",
+    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/17/pho-bi-thu-truong-cu-thu-duc-10-edit-17949024469031090248189-404-518-1504-2278-crop-17949025703842138551289.jpeg",
+    "source": "Tuổi Trẻ Giáo Dục",
     "category": "Giáo dục & Khoa học",
-    "lang": "en",
-    "published_at": "2026-11-11T00:00:00+00:00",
-    "timestamp": 1794355200,
-    "original_summary": "Two conversations examine how schools help young people weigh the facts and make up their own minds.",
-    "title_vi": "[Dịch] Can Schools Prepare Students to Vote Without Telling Them What to Think?",
+    "lang": "vi",
+    "published_at": "2026-11-17T14:55:00",
+    "timestamp": 1794902100,
+    "original_summary": "Dịp kỷ niệm 50 năm thành lập, Trường THPT Thủ Đức đón nhận Cờ truyền thống của UBND TP.HCM và khởi công cơ sở 2 với tổng vốn đầu tư hơn 143 tỉ đồng.",
+    "title_vi": "Trường THPT Thủ Đức tròn 50 tuổi, khởi công cơ sở 2 hơn 143 tỉ đồng",
     "summary_points": [
-      "Two conversations examine how schools help young people weigh the facts and make up their own minds.",
-      "Nguồn tin chính thống: EdSurge News.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Dịp kỷ niệm 50 năm thành lập, Trường THPT Thủ Đức đón nhận Cờ truyền thống của UBND TP.HCM và khởi công cơ sở 2 với tổng vốn đầu tư hơn 143 tỉ đồng.",
+      "Thông tin chính thống do toà soạn Tuổi Trẻ Giáo Dục ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
     ],
     "importance_score": 7
   },
   {
-    "id": "art_28",
-    "title": "How Can Early-Career Teachers Engage Students? Try Improv.",
-    "link": "https://www.edsurge.com/news/how-can-early-career-teachers-engage-students-try-improv",
-    "source": "EdSurge News",
+    "id": "art_23",
+    "title": "Những tiết học giảng dạy bằng tiếng Anh, mở cánh cửa tri thức cho học sinh",
+    "link": "https://tuoitre.vn/nhung-tiet-hoc-giang-day-bang-tieng-anh-mo-canh-cua-tri-thuc-cho-hoc-sinh-100261117140933097.htm",
+    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/17/tiet-hoc-tieng-anh-ly-17948985909281672767321-0-0-1600-2560-crop-1794899198229424974907.jpg",
+    "source": "Tuổi Trẻ Giáo Dục",
     "category": "Giáo dục & Khoa học",
-    "lang": "en",
-    "published_at": "2026-11-10T00:00:00+00:00",
-    "timestamp": 1794268800,
-    "original_summary": "Adding elements of theatrical improvisation to his science classes changed how one young teacher saw students — and himself.",
-    "title_vi": "[Dịch] How Can Early-Career Teachers Engage Students? Try Improv.",
+    "lang": "vi",
+    "published_at": "2026-11-17T14:50:00",
+    "timestamp": 1794901800,
+    "original_summary": "Không còn bó hẹp trong những giờ học ngoại ngữ, tiếng Anh đang từng bước trở thành phương tiện truyền tải kiến thức ở nhiều môn học tại Trường THPT Lương Thế Vinh (phường Cầu Ông Lãnh, TP.HCM).",
+    "title_vi": "Những tiết học giảng dạy bằng tiếng Anh, mở cánh cửa tri thức cho học sinh",
     "summary_points": [
-      "Adding elements of theatrical improvisation to his science classes changed how one young teacher saw students — and himself.",
-      "Nguồn tin chính thống: EdSurge News.",
-      "Nhấn 'Đọc nguồn gốc' để xem chi tiết đầy đủ không quảng cáo."
+      "Không còn bó hẹp trong những giờ học ngoại ngữ, tiếng Anh đang từng bước trở thành phương tiện truyền tải kiến thức ở nhiều môn học tại Trường THPT Lương Thế Vi",
+      "Thông tin chính thống do toà soạn Tuổi Trẻ Giáo Dục ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
+    ],
+    "importance_score": 7
+  },
+  {
+    "id": "art_24",
+    "title": "Phó bí thư Thành ủy TP.HCM Văn Thị Bạch Tuyết thăm, chúc mừng Nhà giáo nhân dân Lý Hòa",
+    "link": "https://tuoitre.vn/pho-bi-thu-thanh-uy-tphcm-van-thi-bach-tuyet-tham-chuc-mung-nha-giao-nhan-dan-ly-hoa-100261117121840776.htm",
+    "image": "https://cdn2.tuoitre.vn/thumb_w/1200/471584752817336320/2026/11/17/ba-bach-tuyet-1794899181602304616929-266-295-926-1351-crop-1794899231083982404468.jpeg",
+    "source": "Tuổi Trẻ Giáo Dục",
+    "category": "Giáo dục & Khoa học",
+    "lang": "vi",
+    "published_at": "2026-11-17T13:44:00",
+    "timestamp": 1794897840,
+    "original_summary": "Sáng 17-11, Phó bí thư Thành ủy TP.HCM Văn Thị Bạch Tuyết đến thăm, chúc mừng Nhà giáo nhân dân, Anh hùng Lao động, PGS.TS Lý Hòa, nhân dịp kỷ niệm 44 năm Ngày Nhà giáo Việt Nam (20-11-1982 - 20-11-2026).",
+    "title_vi": "Phó bí thư Thành ủy TP.HCM Văn Thị Bạch Tuyết thăm, chúc mừng Nhà giáo nhân dân Lý Hòa",
+    "summary_points": [
+      "Sáng 17-11, Phó bí thư Thành ủy TP.HCM Văn Thị Bạch Tuyết đến thăm, chúc mừng Nhà giáo nhân dân, Anh hùng Lao động, PGS.TS Lý Hòa, nhân dịp kỷ niệm 44 năm Ngày ",
+      "Thông tin chính thống do toà soạn Tuổi Trẻ Giáo Dục ghi nhận.",
+      "Xem thêm bình luận và diễn biến đầy đủ tại link gốc."
     ],
     "importance_score": 7
   }
